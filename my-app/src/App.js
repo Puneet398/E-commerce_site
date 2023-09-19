@@ -1,10 +1,18 @@
+import NavBar from "./component/Header/NavBar";
 
-import './App.css';
 
-function App() {
+
+const App=()=>
+{
+  
+
+
   return (
     <div className="App">
-      <h3>Hello world</h3>
+      <NavBar/>
+      
+
+      
     </div>
   );
 }
